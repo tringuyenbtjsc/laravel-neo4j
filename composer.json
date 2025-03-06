@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "tringuyenbtjsc/laravel-neo4j",
+    "description": "Neo4j Graph Eloquent Driver for Laravel",
     "keywords": [
-        ":vendor_name",
+        "BeeTech",
         "laravel",
-        ":package_slug"
+        "laravel-neo4j"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/tringuyenbtjsc/laravel-neo4j",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Tri Nguyen Duc (Bee Tech - PHP)",
+            "email": "tri.nguyen.duc@beetechjsc.com",
             "role": "Developer"
         }
     ],
@@ -35,13 +35,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "BeeTech\\Neo4j\\": "src/",
+            "BeeTech\\Neo4j\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "BeeTech\\Neo4j\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
@@ -63,10 +63,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "BeeTech\\Neo4j\\Neo4jServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "Neo4j": "BeeTech\\Neo4j\\Facades\\Neo4j"
             }
         }
     },

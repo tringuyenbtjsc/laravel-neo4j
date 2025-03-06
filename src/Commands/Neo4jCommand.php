@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace BeeTech\Neo4j\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class Neo4jCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-neo4j';
 
     public $description = 'My command';
 

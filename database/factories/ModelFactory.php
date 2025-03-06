@@ -1,8 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Database\Factories;
-
-use Illuminate\Database\Eloquent\Factories\Factory;
+namespace BeeTech\Neo4j\Database\Factories;
 
 /*
 class ModelFactory extends Factory
